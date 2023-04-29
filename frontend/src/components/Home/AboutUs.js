@@ -40,7 +40,9 @@ const AboutUs = () => {
           <Heading as="h2" size="2xl">
             About Us
           </Heading>
+          <VStack spacing={8} textAlign="left">
           <Text>Our story begins with a team of three individuals, each with a passion for creating purpose-driven and valuable websites. As we embarked on our coding bootcamp journey, we were assigned a group project that would challenge our abilities and bring our ideas to life.
+          
             <br></br>
             During our brainstorming sessions, we discovered that we all shared a common experience: losing touch with friends from our school days. This realization struck a chord with each of us and inspired the idea for our project.
             <br></br>
@@ -48,7 +50,9 @@ const AboutUs = () => {
             <br></br>
             As we progressed through the bootcamp, our technical skills and knowledge grew, enabling us to bring our idea closer to reality. We encountered challenges along the way, but our shared passion for the project fueled our determination to overcome them.
             <br></br>
-            Today, we are proud to present our website that has the potential to reunite old friends and foster new connections. This journey has been a testament to the power of collaboration, passion, and purpose.</Text>
+            Today, we are proud to present our website that has the potential to reunite old friends and foster new connections. This journey has been a testament to the power of collaboration, passion, and purpose.
+            </Text>
+            </VStack>
           <Heading as="h3" size="xl">
             Meet Our Team
           </Heading>
